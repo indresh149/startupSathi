@@ -70,12 +70,13 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 20,
     right: 20,
-    backgroundColor: '#d5e4ef',
+    backgroundColor: '#1B75BB',
     padding: 10,
+    borderRadius: 20,
   },
   textlogout: {
     fontSize: RFPercentage(2.2),
-    color: 'red',
+    color: 'white',
   },
 });
 

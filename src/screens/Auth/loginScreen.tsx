@@ -43,7 +43,6 @@ const LoginScreen = ({navigation}: {navigation: any}) => {
       validationSchema={loginValidationSchema}>
       {({
         handleChange,
-        handleSubmit,
         values,
         errors,
         setFieldTouched,
@@ -55,9 +54,7 @@ const LoginScreen = ({navigation}: {navigation: any}) => {
             <View style={styles.logo}>
               <Text style={styles.textshowHeader}>WELCOME</Text>
             </View>
-            <View>
-              <Text style={styles.textshowLogin}>Login</Text>
-            </View>
+
             <View style={styles.wrapper}>
               <TextInput
                 style={styles.input}
@@ -130,6 +127,7 @@ const styles = StyleSheet.create({
     fontFamily: 'zwodrei',
     fontSize: RFPercentage(8),
     marginBottom: 10,
+    color: '#1B75BB',
   },
   textshowLogin: {
     color: '#1B75BB',
